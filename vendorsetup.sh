@@ -4,10 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_lake.mk
-
-COMMON_LUNCH_CHOICES := \
-    omni_lake-user \
-    omni_lake-userdebug \
-    omni_lake-eng
+add_lunch_combo omni_lake-user
+add_lunch_combo omni_lake-userdebug
+add_lunch_combo omni_lake-eng
