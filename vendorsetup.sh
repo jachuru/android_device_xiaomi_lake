@@ -1,10 +1,13 @@
 #
 # Copyright (C) 2026 The Android Open Source Project
-# Copyright (C) 2026 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-add_lunch_combo omni_lake-user
-add_lunch_combo omni_lake-userdebug
-add_lunch_combo omni_lake-eng
+PRODUCT_MAKEFILES := \
+    $(LOCAL_DIR)/omni_lake.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_lake-user \
+    omni_lake-userdebug \
+    omni_lake-eng
