@@ -1,0 +1,8 @@
+[
+  {
+    "remote": "TeamWin",
+    "repository": "android_device_xiaomi_lake",
+    "target_path": "device/xiaomi/lake",
+    "branch": "twrp-12.1"
+  }
+]
