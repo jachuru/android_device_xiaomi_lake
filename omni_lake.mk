@@ -23,6 +23,9 @@ PRODUCT_MANUFACTURER := xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
+# Enable A/B updates
+AB_OTA_UPDATER := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="twrp_lake-eng 99.87.36 SP2A.220405.004 eng.root.20260207.120446 test-keys"
 
